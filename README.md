@@ -1,10 +1,22 @@
+# My Create React App
+
+Basic template for react developers who use these technologies:
+
+ > Typescript
+ > Eslint
+ > Webpack
+
 ## Download the starter kit
 
-npx degit https://github.com/gopinav/React-TypeScript-Webpack-Starter my-app
+### SSH
+git clone git@github.com:realfranser/my-create-react-app.git
+
+### HTTPS
+git clone https://github.com/realfranser/my-create-react-app.git
 
 ## Install dependencies
 
-cd my-app &&
+cd my-create-react-app &&
 yarn
 
 ## Run dev server

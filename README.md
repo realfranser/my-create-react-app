@@ -1,28 +1,35 @@
 # My Create React App
 
-Basic template for react developers who use these technologies:
+## Technologies
 
- > Typescript
- > Eslint
- > Webpack
+### Framework
 
-## Download the starter kit
+React
 
-### SSH
-git clone git@github.com:realfranser/my-create-react-app.git
+### Package Bundler
 
-### HTTPS
-git clone https://github.com/realfranser/my-create-react-app.git
+Vite
 
-## Install dependencies
+### Linting and code style
 
-cd my-create-react-app &&
-yarn
+ESLint (Google rule set)
+Prettier
 
-## Run dev server
+### Syling
 
-yarn start
+TailwindCSS
 
-## Build
+### Package Manager
 
-yarn build
+Yarn
+
+## How to use
+
+1. Install dependencies:
+    > yarn
+2. Run in dev mode:
+    > yarn dev
+3. Build project:
+    > yarn build
+4. Preview built project:
+    > yarn preview

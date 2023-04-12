@@ -1,10 +1,17 @@
-import { Counter } from './Counter'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-export const App = () => {
-  return (
-    <>
-      <h1>React TypeScript Webpack Starter Template</h1>
-      <Counter />
-    </>
-  )
-}
+import Home from './pages/Home';
+
+const App = () => {
+    return (
+        <>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                </Routes>
+            </Router>
+        </>
+    );
+};
+
+export default App;

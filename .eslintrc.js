@@ -1,13 +1,11 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: true
   },
   extends: [
     google,
     'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
-  plugins: [
-    'prettier',
-  ],
-}
+  plugins: ['prettier']
+};

@@ -26,10 +26,10 @@ Yarn
 ## How to use
 
 1. Install dependencies:
-    > yarn
+   > yarn
 2. Run in dev mode:
-    > yarn dev
+   > yarn dev
 3. Build project:
-    > yarn build
+   > yarn build
 4. Preview built project:
-    > yarn preview
+   > yarn preview
